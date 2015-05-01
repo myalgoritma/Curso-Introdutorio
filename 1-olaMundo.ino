@@ -28,7 +28,6 @@ void setup(){
   // Coloque aqui o codigo para rodar apena uma vez:
   
   pinMode(pinoLED,OUTPUT);  //definição do pino como saida
-  Serial.begin(9600); // inicia serial com baud rate de 9600
 }
 
 void loop(){
@@ -38,5 +37,4 @@ void loop(){
   delay(1000); // espera 1000 ms ou 1 s
   digitalWrite(pinoLED,LOW); // Escreve nivel baixo na saida do Led
   delay(1000); // espera 1000 ms ou 1 s  
-  Serial.println("Programa Introdutório Algoritma"); // Escreve cometario na porta serial
 }
