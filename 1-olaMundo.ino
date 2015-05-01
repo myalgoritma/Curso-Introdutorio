@@ -15,12 +15,12 @@ https://www.gnu.org/licenses/quick-guide-gplv3.html
 /*Programa introdutório em Arduino - Ola Mundo
 v1.0 - Abril de 2015
 -------------------Hardware------------------
-- Led verde - pino 8
-- Resistor 1 kohm - entre terra e Led
+- LED verde - pino 8
+- Resistor 1 kohm em serie com o LED
 
 */
 
-int pinoLed=8; // definição do pino onde esta conectado o LED
+int pinoLED=8; // definição do pino onde esta conectado o LED
 float x=0.232;
 
 
