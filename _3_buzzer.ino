@@ -30,6 +30,6 @@ void setup() {
 void loop() {
   // Coloque aqui o codigo para rodar repetidas vezes:
   
-  tone(pinoBuzzer, 2000, 1000);   // Aplica sinal de 2 kHz (50% duty cycle) no pino do Buzzer por 1 s
+  tone(pinoBuzzer, 2000, 1000);   // Aplica sinal de 2 kHz (50% duty cycle) no pino do Buzzer por 1000 ms
   delay(2000);                    // Espera 2000 ms ou 2 s
 }
