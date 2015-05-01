@@ -15,14 +15,15 @@ qualquer superior.
 v1.0 - Abril de 2015
 -------------------Hardware------------------
 - Led verde - pino 8
-- Led vermelho - pino 9
-- Led amarelo - pino 10
+- Led amarelo - pino 9
+- Led vermelho - pino 10
 - 3 resistores de 1 kohm - entre terra e cada Led
 */
 
 int LedVerde=8;      // definição do pino onde esta conectado o Led verde
-int LedVermelho=9;   // definição do pino onde esta conectado o Led vermelho
-int LedAmarelo=10;   // definição do pino onde esta conectado o Led amarelo
+int LedAmarelo=9;   // definição do pino onde esta conectado o Led amarelo
+int LedVermelho=10;   // definição do pino onde esta conectado o Led vermelho
+
 
 void setup(){
   // Coloque aqui o codigo para rodar apena uma vez:
