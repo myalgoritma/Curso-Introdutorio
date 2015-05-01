@@ -6,9 +6,9 @@
 
 Abril de 2015
 
-Este programa Ã© um software livre e obedece a licenÃ§a PGL 3.0: Voce pode 
+Este programa é um software livre e obedece a licença PGL 3.0: Voce pode 
 redistribui-lo e/ou modifica-lo respeitando os termos do GNU -General 
-Public License publicado pela FundaÃ§Ã£o de Software Livre, versÃ£o 3.0 ou 
+Public License publicado pela Fundação de Software Livre, versão 3.0 ou 
 qualquer superior.
 https://www.gnu.org/licenses/quick-guide-gplv3.html
 
