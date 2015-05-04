@@ -21,12 +21,9 @@ v1.0 - Abril de 2015
 */
 
 int pinoLED=8; // definição do pino onde esta conectado o LED
-float x=0.232;
-
 
 void setup(){ 
   // Coloque aqui o codigo para rodar apena uma vez:
-  
   pinMode(pinoLED,OUTPUT);  //definição do pino como saida
 }
 
