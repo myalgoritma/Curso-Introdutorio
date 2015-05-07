@@ -35,18 +35,13 @@ sensorUltrassonico meuSensor(pinoTrigger, pinoEcho); // definição da instancia
 void setup() {
   // Coloque aqui o codigo para rodar apena uma vez:
 
-  Serial.begin(9600);                                 // Inicia a porta serial
-  Serial.println("-----------Algoritma-----------");  //Imprime Cabeçalho
-  Serial.println("Sensor de Estacionamento-");        //Imprime Cabeçalho
-  Serial.println("Distancia [cm]");                   // Imprime Cabeçalho
 }
 
 void loop() {
   // Coloque aqui o codigo para rodar repetidas vezes:
   
   distancia=meuSensor.medeDistancia();  // Mede a distancia em cm
-  Serial.println(distancia);            // Imprime na serial a distancia em cm
-  
+
   if(distancia<distanciaCritica)        // Checa se a distancia atual é menor que a distancia critica
   {
   tone(pinoBuzzer,2000);              // Se sim, toca continuamente o buzzer com frequencia de 2kHz
